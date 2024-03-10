@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.register, .login{
+  margin-left: 30%;
+}
+.register .inputBox{
+  display: block;
+  width: 300px;
+  padding: 4px 5px;
+  margin: 5px 0;
+  outline: skyblue;
+}
+.register .registerBtn, .loginBtn{
+  width: 200px;
+  padding: 10px;
+  background-color: #00aaff;
+  border: none;
+  cursor: pointer;
+}
+.login .inputBox{
+  display: block;
+  width: 300px;
+  padding: 4px 5px;
+  margin: 5px 0;
+  outline: skyblue;
+}
+.navbar{
+  background-color: skyblue;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.navbar ul li a{
+  color: white;
+  text-decoration: none;
+}
+.navbar .navRight{
+  text-align: right;
+}
